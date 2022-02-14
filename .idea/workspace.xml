@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c3deec-dea2-42a5-b3d0-5c4503356d82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/employee_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/employee_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/employee_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/employee_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/manager_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/manager_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager_pending.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24d1QD1WV4Yg9yGW9TStxhztjUK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -58,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\14157\OneDrive\Documents\java projects\AileenClone\Reimbursement-System-BackEnd\img" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,7 +103,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="144" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644514297212">

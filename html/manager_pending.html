@@ -1,98 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+
 <head>
-    <meta charset="UTF-8">
-    <title>employee</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta class="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Home | Valentina</title>
+    <link rel='stylesheet' href='../css/style.min.css' />
+    <link rel='stylesheet' href='../css/style.css' />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/employee_index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid" >
-            <div class="float-left">
-                <ul class="navbar-nav mx-auto">
-                    <li class="navbar-nav mx-auto">
-                        <img src="../img/logoButterfly.png" height="80" width="90" alt="Logo" class="rounded float-left" />
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+
+            <div class="row">
+                <br>
+                <img src="../img/logo1.png" class="navbar__logo" height="100" width="150" alt="Logo" />
+            </div>
+    </div>
+    </div>
+    </div>
+    <div>
+        <a class="nav-link" href="#">Logout</a>
+    </div>
+
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <span data-feather="home"></span>
+                            Home <span class="sr-only">(current)</span>
+                        </a>
                     </li>
-                    <li class=" text-dark align-self-center list-inline-item">
-                        <h1>PROJECT 01</h1>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="file"></span>
+                            Pending Reimbursement
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="file"></span>
+                            Reimbursement History
+                        </a>
                     </li>
                 </ul>
-            </div>
 
-            <div class="float-right">
-                <div class="d-flex ">
-                    <ul class="navbar-nav " style="font-size: 120%">
-                        <li class="text-dark">
-                            <a class="nav nav-link text-dark active" href="manager_index.html">Home</a>
-                        </li>
-                        <li >
-                            <a class="nav nav-link text-dark" href="manager_pending.html">Reimbursement Pending</a>
-                        </li>
-                        <li >
-                            <a class="nav nav-link text-dark" href="manager_history.html">Reimbursement History</a>
-                        </li>
+                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-dark">
                     </ul>
-                    <a id="login"
-                       href="../index.html"
-                       class="btn btn-info float-right"
-                       style="width: 95px; height:45px">Logout
-                    </a>
-                </div>
             </div>
-        </div>
-    </nav>
-</header>
-<div class="container">
-    <div class="row justify-content-md-center">
-        <div class="col-md-12">
-            <div class="text-center">
-                <div class="mb-12">
-                    <h1>Pending Reimbursement</h1>
-                </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                <h1 class="h2">Pending Reimbursement</h1>
+                <!--     <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group mr-2">
+                            <button class="btn btn-sm btn-outline-secondary">Share</button>
+                            <button class="btn btn-sm btn-outline-secondary">Export</button>
+                        </div>
+                    </div>
+                    -->
             </div>
-        </div>
+            <!-- Start of Page Content -->
+
+            <div class="table-responsive">
+                <button type="button" class="btn btn-primary">TEST</button>
+                <br><br>
+                <table class="table table-striped table-sm">
+                    <thead>
+                    <tr>
+                        <th>#User ID</th>
+                        <th>Reimb ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                        <th>Submitted Date</th>
+                        <th>Amount</th>
+                        <th>Transaction Date</th>
+                        <th>Approved Date</th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </main>
     </div>
 </div>
 
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="../../../../assets/js/vendor/popper.min.js"></script>
+<script src="../../../../dist/js/bootstrap.min.js"></script>
 
-<div class="container">
-    <button onclick="addTable()" type="button" class="btn btn-dark btn-lg">TEST</button>
-    <h2>Pending Reimbursement</h2>
-    <div >
-        <table id="userPendingListTable" border="2" >
-            <tr class="borderHead">
-                <th class="border" style="width: 50px;height: 50px;">User ID</th>
-                <th class="border" style="width: 70px;height: 50px;">Reimb ID</th>
-                <th class="border" style="width: 120px;height: 50px;">First Name</th>
-                <th class="border" style="width: 120px;height: 50px;">Last Name</th>
-                <th class="border" style="width: 250px;height: 50px;">Email</th>
-                <th class="border" style="width: 120px;height: 50px;">Status</th>
-                <th class="border" style="width: 150px;height: 50px;">Submitted Date</th>
-                <th class="border" style="width: 100px;height: 50px;">Amount</th>
-                <th class="border" style="width: 150px;height: 50px;">Transaction Date</th>
-                <th class="border" style="width: 150px;height: 50px;">Approved Date</th>
-                <th></th>
-                <th></th>
-
-            </tr>
-        </table>
-
-
-    </div>
-</div>
-
-
-<script src="../js/script.js"></script>
+<!-- Icons -->
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+<script>
+        feather.replace()
+    </script>
+<script src='js/app.min.js'></script>
 </body>
+
 </html>
